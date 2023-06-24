@@ -7,5 +7,5 @@ based on Docker image: `python:3.9-slim`
 packages:
 
 - python: 3.9
-- django: 3.2.6
+- django: 3.2.12
 - ansible: 4.4.0
