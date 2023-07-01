@@ -2,7 +2,7 @@
 #
 #RUN apt-get -qq update && \
 #    apt-get -qq -y install curl
-FROM dylanninin/django
+FROM dylanninin/django:3.2
 
 COPY requirements-3.2.txt /requirements.txt
 RUN pip install -r /requirements.txt
