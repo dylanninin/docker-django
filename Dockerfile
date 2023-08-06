@@ -5,4 +5,5 @@
 FROM dylanninin/django
 
 COPY requirements.txt /requirements.txt
+COPY pip.conf /root/.config/pip/pip.conf
 RUN pip install -r /requirements.txt
